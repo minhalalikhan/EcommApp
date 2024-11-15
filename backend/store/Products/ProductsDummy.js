@@ -1,0 +1,177 @@
+ const DummyProducts = [{
+         keyword: "Mobile Phones",
+         id: 1,
+         name: "Smartphone X1",
+         price: 699.99,
+         seller: "TechStore",
+         rating: 4.5,
+         short_desc: "Powerful smartphone with cutting-edge features.",
+         long_desc: "The Smartphone X1 is designed for those who seek performance and elegance. With a 6.5-inch display, 128GB storage, and a long-lasting battery, it meets all your needs.",
+         image: "images/mobiles/1",
+         limited_stock: true
+     },
+     {
+         keyword: "Mobile Phones",
+         id: 2,
+         name: "Gadget Z2",
+         price: 499.99,
+         seller: "GadgetHub",
+         rating: 4.2,
+         short_desc: "Affordable phone with impressive camera quality.",
+         long_desc: "The Gadget Z2 comes with a 64MP camera, 6GB RAM, and a sleek design. Perfect for photography enthusiasts and casual users alike.",
+         image: "images/mobiles/2",
+         new_arrival: true
+     },
+     {
+         keyword: "Mobile Phones",
+         id: 3,
+         name: "Phone Pro 12",
+         price: 899.99,
+         seller: "MobileWorld",
+         rating: 4.8,
+         short_desc: "High-end smartphone with all the latest features.",
+         long_desc: "With its stunning display, advanced camera system, and top-tier performance, the Phone Pro 12 is a flagship device for tech lovers.",
+         image: "images/mobiles/3",
+         "best_seller": true
+     },
+     {
+         keyword: "Mobile Phones",
+         id: 4,
+         name: "Xtreme Phone 11",
+         price: 349.99,
+         seller: "BudgetMobiles",
+         rating: 4.0,
+         short_desc: "Value-packed phone for everyday use.",
+         long_desc: "The Xtreme Phone 11 features a large display, decent battery life, and user-friendly interface, making it perfect for anyone looking for a reliable device.",
+         image: "images/mobiles/4"
+     },
+     {
+         keyword: "Mobile Phones",
+         id: 5,
+         name: "EcoPhone 2",
+         price: 299.99,
+         seller: "GreenTech",
+         rating: 3.8,
+         short_desc: "Environmentally friendly phone with solid features.",
+         long_desc: "Made from sustainable materials, the EcoPhone 2 offers good performance and battery life, appealing to eco-conscious consumers.",
+         image: "images/mobiles/5",
+         limited_stock: true
+     },
+     {
+         keyword: "Mobile Phones",
+         id: 6,
+         name: "SuperPhone Z",
+         price: 799.99,
+         seller: "EliteElectronics",
+         rating: 4.7,
+         short_desc: "Luxury smartphone with premium build quality.",
+         long_desc: "The SuperPhone Z is crafted with a glass body and offers top-notch specifications, ensuring you have the best technology at your fingertips.",
+         image: "images/mobiles/6",
+         new_arrival: true
+     },
+     {
+         keyword: "Mobile Phones",
+         id: 7,
+         name: "Budget Smart 5",
+         price: 199.99,
+         seller: "EconomyPhones",
+         rating: 3.5,
+         short_desc: "Basic smartphone for first-time users.",
+         long_desc: "Designed for simplicity, the Budget Smart 5 is easy to use, making it an ideal choice for seniors and beginners.",
+         image: "images/mobiles/7"
+     },
+     {
+         keyword: "Mobile Phones",
+         id: 8,
+         name: "Vivid Phone 8",
+         price: 459.99,
+         seller: "PhonePalace",
+         rating: 4.1,
+         short_desc: "Bright display and reliable performance.",
+         long_desc: "The Vivid Phone 8 is perfect for media consumption, featuring a vibrant display and strong battery life.",
+         image: "images/mobiles/8"
+     },
+     {
+         keyword: "Mobile Phones",
+         id: 9,
+         name: "Galaxy Mega",
+         price: 749.99,
+         seller: "StarMobiles",
+         rating: 4.6,
+         short_desc: "Innovative smartphone with unique features.",
+         long_desc: "The Galaxy Mega combines a large display with innovative features, catering to those who want a cutting-edge mobile experience.",
+         image: "images/mobiles/9",
+         "best_seller": true
+     },
+     {
+         keyword: "Mobile Phones",
+         id: 10,
+         name: "Pixel Ultra",
+         price: 999.99,
+         seller: "TechGiant",
+         rating: 4.9,
+         short_desc: "Ultimate smartphone experience with top-tier specs.",
+         long_desc: "The Pixel Ultra offers unparalleled camera quality, advanced AI features, and a premium user experience, making it the perfect choice for tech enthusiasts.",
+         image: "images/mobiles/10"
+     },
+     {
+         keyword: "Mobile Phones",
+         id: 11,
+         name: "AeroPhone 3",
+         price: 399.99,
+         seller: "MidRangeMobiles",
+         rating: 4.3,
+         short_desc: "Great features at a mid-range price.",
+         long_desc: "The AeroPhone 3 combines performance and affordability, featuring a 6.4-inch display and fast charging capabilities.",
+         image: "images/mobiles/image11",
+         new_arrival: true
+     },
+     {
+         keyword: "Mobile Phones",
+         id: 12,
+         name: "FlexiSmart 6",
+         price: 549.99,
+         seller: "SmartChoice",
+         rating: 4.4,
+         short_desc: "Versatile phone with flexible features.",
+         long_desc: "The FlexiSmart 6 adapts to your lifestyle with its customizable interface and robust performance.",
+         image: "images/mobiles/image12"
+     },
+     {
+         keyword: "Mobile Phones",
+         id: 13,
+         name: "FuturePhone 5G",
+         price: 899.99,
+         seller: "NextGenMobiles",
+         rating: 4.6,
+         short_desc: "Next-gen smartphone with 5G capabilities.",
+         long_desc: "Experience lightning-fast connectivity with the FuturePhone 5G, designed for the tech-savvy user.",
+         image: "images/mobiles/image13",
+         "best_seller": true
+     },
+     {
+         keyword: "Mobile Phones",
+         id: 14,
+         name: "MiniPhone 4",
+         price: 279.99,
+         seller: "CompactMobiles",
+         rating: 3.7,
+         short_desc: "Compact and user-friendly smartphone.",
+         long_desc: "The MiniPhone 4 is perfect for those who prefer a smaller device without compromising on features.",
+         image: "images/mobiles/image14"
+     },
+     {
+         keyword: "Mobile Phones",
+         id: 15,
+         name: "UltraPhone X",
+         price: 1099.99,
+         seller: "LuxuryMobiles",
+         rating: 4.9,
+         short_desc: "Premium smartphone with unrivaled performance.",
+         long_desc: "The UltraPhone X features cutting-edge technology, a stunning display, and unmatched performance, catering to the elite user.",
+         image: "images/mobiles/image15",
+         limited_stock: true
+     }
+ ]
+
+ module.exports = DummyProducts

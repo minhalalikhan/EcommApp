@@ -1,0 +1,79 @@
+.HomeContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    gap: 20px;
+}
+
+.Sidebar {
+    overflow: hidden;
+    height: 100%;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px #80808066;
+}
+
+.Sidebar p {
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+}
+
+.Sidebar p.item {
+    cursor: pointer;
+}
+
+.Sidebar p.item:hover {
+    background-color: lightgrey;
+}
+
+.ProductsTable {
+    display: flex;
+    flex: 1;
+    height: 100%;
+    overflow-y: auto;
+    flex-direction: column;
+    gap: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px #80808066;
+    ;
+}
+
+.tablewrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 25px;
+}
+
+.filterrow {
+    height: 80px;
+    min-height: fit-content;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 0 50px;
+}
+
+.productsResult {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.pagination {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}

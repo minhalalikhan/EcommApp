@@ -1,0 +1,113 @@
+.ProfileContainer {
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+}
+
+.ProfileContainer .tabs {
+    display: flex;
+    width: 100%;
+    padding: 5px;
+    border-bottom-width: 1px;
+    border-bottom-color: lightgray;
+    border-bottom-style: solid;
+    gap: 20px;
+}
+
+.ProfileContainer .tabs p {
+    cursor: pointer;
+    padding: 5px 10px;
+}
+
+.ProfileContainer .tabs p.active {
+    background-color: rgb(225, 225, 225);
+}
+
+.ProfileContainer .tabs p:hover {
+    background-color: lightgray;
+}
+
+.OrderHistory {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    padding: 10px;
+    gap: 50px;
+}
+
+.OrderHistory .Order {
+    border-radius: 20px;
+    border: 1px solid black;
+    padding: 20px;
+    width: 100%;
+}
+
+.Order .OrderDetails {
+    padding: 10px;
+    color: #4d4d4d;
+}
+
+.OrderHistory .OrderItem {
+    width: 100%;
+    padding-right: 20px;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    border-bottom-width: 1px;
+    border-bottom-color: #c5c5c5;
+    border-bottom-style: solid;
+}
+
+.OrderImageCard {
+    height: 100%;
+    padding: 10px;
+    min-width: 250px;
+    max-width: 20%;
+}
+
+.OrderImageCard img {
+    width: 100%;
+    height: 100%;
+    object-fit: scale-down;
+}
+
+.OrderIteminfo {
+    flex: 1;
+    min-height: fit-content;
+    height: 100%;
+    padding: 10px;
+}
+
+.OrderItemQuantity {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+}
+
+
+/* ------------------------------------------------------------------- */
+
+.ProfileDetails {
+    width: 100%;
+    padding: 20px;
+}
+
+.ProfileField {
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+    align-items: center;
+}
+
+.ProfileField p {
+    font-size: 20px;
+    min-width: 180px;
+}
+
+.ProfileCTA {
+    display: flex;
+    gap: 10px;
+}
