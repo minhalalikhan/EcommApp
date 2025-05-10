@@ -5,6 +5,8 @@ import { Button, Rating } from '@mui/material'
 import { ProductToken } from '../Components/ProductCard'
 import HandleCartButton from './HandleCartButton'
 
+import StarIcon from '@mui/icons-material/Star';
+
 function CartItemCard({
     name, image, short_desc,
     rating, id, keyword, _id, subtotal,
@@ -13,13 +15,16 @@ function CartItemCard({
     return (
         <div className='CartItem'>
             <div className='CartImageCard'>
-                <img src={'/images/' + keyword + '/' + id + '.jpg'} />
+                <img src={'/' + image + '.jpg'} />
             </div>
             <div className="cartIteminfo">
                 <p style={{ fontWeight: '800', fontSize: '20px' }}>{name}</p>
                 <p>{seller}</p>
                 <div>
-                    <Rating precision={0.5} readOnly value={rating} />
+                    <Rating precision={0.5} readOnly value={rating}
+                        className='custom-rating'
+                        emptyIcon={<StarIcon style={{ opacity: 0.55 }} fontSize="inherit" />}
+                    />
                 </div>
                 <ProductToken limitedStock={limited_stock} BestSeller={best_seller} NewArrival={new_arrival} />
                 <p style={{ fontSize: '16px' }}> {short_desc}</p>

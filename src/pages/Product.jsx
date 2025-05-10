@@ -7,6 +7,7 @@ import ProductCard, { ProductToken } from '../Components/ProductCard'
 import { DummyProducts } from '../dummyData/ProductsDummy'
 import { useGetProductDetailsQuery, useGetProductsQuery } from '../redux/backendAPI'
 import HandleCartButton from '../Components/HandleCartButton'
+import StarIcon from '@mui/icons-material/Star';
 function Product() {
     const navigate = useNavigate()
 
@@ -44,13 +45,17 @@ function Product() {
                     <div className='productdetails'>
                         <div className="imagecard">
 
-                            <img src={"/images/" + data.keyword + "/" + data.id + ".jpg"} alt="" />
+                            {/* <img src={"/images/" + data.keyword + "/" + data.id + ".jpg"} alt="" /> */}
+                            <img src={'/' + data.image + '.jpg'} />
                         </div>
                         <div className="productinfo">
                             <h3 style={{ fontSize: '40px' }}> {data.name}</h3>
                             <h5 style={{ fontSize: '14px', color: 'gray', fontStyle: 'italic' }}>{data.seller}</h5>
                             <div>
-                                <Rating precision={0.5} readOnly value={data.rating} />
+                                <Rating precision={0.5} readOnly value={data.rating}
+                                    className='custom-rating'
+                                    emptyIcon={<StarIcon style={{ opacity: 0.55 }} fontSize="inherit" />}
+                                />
                             </div>
                             <ProductToken limitedStock={data?.limited_stock} BestSeller={data?.best_seller} NewArrival={data?.new_arrival} />
                             <p style={{ fontSize: '16px' }}> {data.short_desc}</p>
@@ -74,7 +79,7 @@ function Product() {
                                     similardata.result.slice(0, 8).map((item, i) => {
 
                                         return (
-                                            <ProductCard key={i} {...item} />
+                                            <ProductCard key={item.id} {...item} />
                                         )
                                     })
                                 }

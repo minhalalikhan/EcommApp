@@ -10,9 +10,15 @@
 .Sidebar {
     overflow: hidden;
     height: 100%;
+    background-color: var(--component-bg);
     width: 250px;
     border-radius: 10px;
     box-shadow: 4px 4px 8px #80808066;
+}
+
+.Sidebar .sidebar-header {
+    background-color: black;
+    color: white;
 }
 
 .Sidebar p {
@@ -27,8 +33,12 @@
     cursor: pointer;
 }
 
+.Sidebar p.item.active {
+    background-color: var(--select-bg);
+}
+
 .Sidebar p.item:hover {
-    background-color: lightgrey;
+    background-color: var(--select-bg);
 }
 
 .ProductsTable {
@@ -76,4 +86,14 @@
     width: 100%;
     display: flex;
     justify-content: center;
+}
+
+.pagination .MuiPaginationItem-root {
+    color: var(--pagination-texta);
+    /* border: 1px solid #ddd; */
+}
+
+.pagination .Mui-selected {
+    background-color: #2560b8;
+    color: white;
 }

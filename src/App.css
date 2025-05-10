@@ -10,9 +10,85 @@
 
 .PageContainer {
     width: 100%;
+    background-color: var(--bg);
+    color: var(--text);
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     padding: 20px;
     height: calc(100% - 70px);
+}
+
+.custom-rating .MuiRating-iconEmpty {
+    color: #bebebe;
+    /* Change to any color you want */
+}
+
+.css-16wblaj-MuiInputBase-input-MuiOutlinedInput-input {
+    color: var(--text);
+}
+
+.css-jupps9-MuiInputBase-root-MuiOutlinedInput-root,
+.css-elo8k2-MuiInputAdornment-root {
+    color: var(--text) !important;
+}
+
+.css-1ll44ll-MuiOutlinedInput-notchedOutline {
+    border-color: var(--border) !important;
+}
+
+.css-w76bbz-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input {
+    color: var(--text) !important;
+}
+
+.css-113d811-MuiFormLabel-root-MuiInputLabel-root {
+    color: var(--label) !important;
+}
+
+.css-lohd6h-MuiSvgIcon-root-MuiSelect-icon {
+    color: var(--text) !important;
+}
+
+.css-19qnlrw-MuiFormLabel-root-MuiInputLabel-root {
+    color: var(--label) !important;
+}
+
+.css-18rj31d-MuiButtonBase-root-MuiButton-root {
+    background-color: var(--button-dark) !important;
+}
+
+.css-1p9yecb-MuiButtonBase-root-MuiButton-root {
+    background-color: var(--button-light) !important;
+}
+
+.css-16wblaj-MuiInputBase-input-MuiOutlinedInput-input {
+    color: var(--text) !important;
+}
+
+.css-1a9zdl6-MuiButtonBase-root-MuiButton-root {
+    color: var(--text) !important;
+    border-color: var(--label) !important;
+}
+
+.css-n4mxj5-MuiFormControl-root-MuiTextField-root {
+    background-color: var(--disabled-input) !important;
+}
+
+.css-1pzfmz2-MuiInputBase-input-MuiOutlinedInput-input {
+    color: var(--text) !important;
+}
+
+.css-oeq6yz-MuiButtonBase-root-MuiIconButton-root {
+    color: var(--label) !important;
+}
+
+
+/* SWITCH BUTTON */
+
+.css-dw2qbq-MuiSwitch-root .MuiSwitch-thumb {
+    background-color: #313131 !important;
+}
+
+.css-dw2qbq-MuiSwitch-root .MuiSwitch-switchBase.Mui-checked+.MuiSwitch-track {
+    background-color: #bebebe;
 }

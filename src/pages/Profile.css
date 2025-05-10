@@ -20,11 +20,11 @@
 }
 
 .ProfileContainer .tabs p.active {
-    background-color: rgb(225, 225, 225);
+    background-color: var(--select-bg);
 }
 
 .ProfileContainer .tabs p:hover {
-    background-color: lightgray;
+    background-color: var(--select-bg);
 }
 
 .OrderHistory {

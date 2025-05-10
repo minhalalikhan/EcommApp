@@ -2,6 +2,7 @@ import React from 'react'
 import { IoCart } from "react-icons/io5";
 import { FaUserCircle } from "react-icons/fa";
 import { Link } from 'react-router-dom';
+import DarkModeSwitch from './DarkModeSwitch';
 
 
 
@@ -15,13 +16,14 @@ function Header() {
                 <h1>EHUB</h1>
             </Link>
             <div className='header-tabs'>
+                <DarkModeSwitch />
                 <Link to={'/cart'}>
 
-                    <IoCart className='header-icons' color='black' fontSize={'30px'} />
+                    <IoCart className='header-icons' fontSize={'30px'} />
                 </Link>
                 <Link to='/profile'>
 
-                    <FaUserCircle className='header-icons' color='black' fontSize={'30px'} />
+                    <FaUserCircle className='header-icons' fontSize={'30px'} />
                 </Link>
             </div>
         </div>

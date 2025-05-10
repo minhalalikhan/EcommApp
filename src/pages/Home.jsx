@@ -22,6 +22,7 @@ import { useSelector } from 'react-redux';
 
 import { useGetCategoriesQuery, useGetProductsQuery } from '../redux/backendAPI';
 
+
 function Home() {
     const userdata = useSelector((state) => state.User.userProfile)
 
@@ -71,22 +72,27 @@ function SideBar({ updateCategory, active }) {
 
     return (
         <div className='Sidebar'>
-            <p style={{ backgroundColor: 'black', color: 'white', padding: '15px 0' }}>
+            <p
+                className='sidebar-header'
+
+            >
                 Categories
             </p>
-            <p className='item'
+            <p className={`item ${active === '' ? 'active' : ''}`}
                 onClick={() => updateCategory('')}
 
-                style={{ backgroundColor: active === '' ? 'lightgray' : '' }}>
+            // style={{ backgroundColor: active === '' ? 'lightgray' : '' }}
+            >
                 All Products
             </p>
             {
                 isSuccess && data && data?.result.map((category, i) => {
                     return (
-                        <p className='item'
+                        <p className={`item ${active === category ? 'active' : ''}`}
                             onClick={() => updateCategory(category)}
                             key={i}
-                            style={{ backgroundColor: active === category ? 'lightgray' : '' }}>
+                        // style={{ backgroundColor: active === category ? 'lightgray' : '' }}
+                        >
                             {category}
                         </p>
                     )
@@ -116,6 +122,18 @@ function ProductsTable({ updateTextSearch, products, updateOrder }) {
     useEffect(() => {
         updateTextSearch(searchText)
     }, [searchText])
+
+    useEffect(() => {
+
+        if (products && products?.result.length > 0) {
+            console.log('products updated', Page, " count  :", Math.ceil(products.result.length / 8))
+
+            if (Page > Math.ceil(products.result.length / 8)) {
+                ChangePage(Math.ceil(products.result.length / 8))
+            }
+
+        }
+    }, [products])
 
     const handleChange = (event) => {
         setorder(event.target.value);
@@ -188,7 +206,7 @@ function ProductsTable({ updateTextSearch, products, updateOrder }) {
                         products?.result && products.result.slice(((Page - 1) * 8), Page * 8).map((item, i) => {
 
                             return (
-                                <ProductCard key={i} {...item} />
+                                <ProductCard key={item.id} {...item} />
                             )
                         })
                     }{

@@ -51,9 +51,11 @@ function calcNewCartDetails(cartArray, Product, quantity, price) {
 async function checkIfProductCollectionExists() {
     try {
         // Wait for Mongoose to connect to the database
-        const ProductsData = await Product.findOne()
-        console.log("check if product exist", ProductsData)
-        if (!ProductsData) {
+        // const ProductsData = await Product.findOne()
+        const ProductsData = await Product.deleteMany({})
+
+        // console.log("check if product exist", ProductsData)
+        if (true) {
             DummyProducts.forEach(async(item) => {
                 const NewEntry = new Product(item)
                 await NewEntry.save()

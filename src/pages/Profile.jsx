@@ -6,7 +6,7 @@ import {
     FormControl, Rating
 } from '@mui/material'
 
-
+import StarIcon from '@mui/icons-material/Star';
 import { ProductToken } from '../Components/ProductCard'
 import { useDispatch, useSelector } from 'react-redux';
 import { useNavigate } from 'react-router-dom'
@@ -338,13 +338,17 @@ function OrderItem({ orderItem }) {
         <div className='OrderItem'>
 
             <div className='OrderImageCard'>
-                <img src={'/images/' + orderItem.product.keyword + '/' + orderItem.product.id + '.jpg'} />
+                <img src={'/' + orderItem.product.image + '.jpg'} />
             </div>
             <div className="OrderIteminfo">
                 <p style={{ fontWeight: '800', fontSize: '20px' }}>{orderItem.product.name}</p>
                 <p>{orderItem.product.seller}</p>
                 <div>
-                    <Rating precision={0.5} readOnly value={orderItem.product.rating} />
+                    <Rating precision={0.5} readOnly value={orderItem.product.rating}
+                        className='custom-rating'
+
+                        emptyIcon={<StarIcon style={{ opacity: 0.55 }} fontSize="inherit" />}
+                    />
                 </div>
                 <ProductToken limitedStock={orderItem.product?.limited_stock} BestSeller={orderItem.product?.best_seller} NewArrival={orderItem.product?.new_arrival} />
                 <p style={{ fontSize: '16px' }}> {orderItem.product.short_desc}</p>

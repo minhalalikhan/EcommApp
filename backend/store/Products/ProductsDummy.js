@@ -7,9 +7,10 @@
          rating: 4.5,
          short_desc: "Powerful smartphone with cutting-edge features.",
          long_desc: "The Smartphone X1 is designed for those who seek performance and elegance. With a 6.5-inch display, 128GB storage, and a long-lasting battery, it meets all your needs.",
-         image: "images/mobiles/1",
+         image: "images/Mobile Phones/1",
          limited_stock: true
      },
+
      {
          keyword: "Mobile Phones",
          id: 2,
@@ -19,7 +20,7 @@
          rating: 4.2,
          short_desc: "Affordable phone with impressive camera quality.",
          long_desc: "The Gadget Z2 comes with a 64MP camera, 6GB RAM, and a sleek design. Perfect for photography enthusiasts and casual users alike.",
-         image: "images/mobiles/2",
+         image: "images/Mobile Phones/2",
          new_arrival: true
      },
      {
@@ -31,7 +32,7 @@
          rating: 4.8,
          short_desc: "High-end smartphone with all the latest features.",
          long_desc: "With its stunning display, advanced camera system, and top-tier performance, the Phone Pro 12 is a flagship device for tech lovers.",
-         image: "images/mobiles/3",
+         image: "images/Mobile Phones/3",
          "best_seller": true
      },
      {
@@ -43,7 +44,7 @@
          rating: 4.0,
          short_desc: "Value-packed phone for everyday use.",
          long_desc: "The Xtreme Phone 11 features a large display, decent battery life, and user-friendly interface, making it perfect for anyone looking for a reliable device.",
-         image: "images/mobiles/4"
+         image: "images/Mobile Phones/4"
      },
      {
          keyword: "Mobile Phones",
@@ -54,7 +55,7 @@
          rating: 3.8,
          short_desc: "Environmentally friendly phone with solid features.",
          long_desc: "Made from sustainable materials, the EcoPhone 2 offers good performance and battery life, appealing to eco-conscious consumers.",
-         image: "images/mobiles/5",
+         image: "images/Mobile Phones/5",
          limited_stock: true
      },
      {
@@ -66,7 +67,7 @@
          rating: 4.7,
          short_desc: "Luxury smartphone with premium build quality.",
          long_desc: "The SuperPhone Z is crafted with a glass body and offers top-notch specifications, ensuring you have the best technology at your fingertips.",
-         image: "images/mobiles/6",
+         image: "images/Mobile Phones/6",
          new_arrival: true
      },
      {
@@ -78,7 +79,7 @@
          rating: 3.5,
          short_desc: "Basic smartphone for first-time users.",
          long_desc: "Designed for simplicity, the Budget Smart 5 is easy to use, making it an ideal choice for seniors and beginners.",
-         image: "images/mobiles/7"
+         image: "images/Mobile Phones/7"
      },
      {
          keyword: "Mobile Phones",
@@ -89,7 +90,7 @@
          rating: 4.1,
          short_desc: "Bright display and reliable performance.",
          long_desc: "The Vivid Phone 8 is perfect for media consumption, featuring a vibrant display and strong battery life.",
-         image: "images/mobiles/8"
+         image: "images/Mobile Phones/8"
      },
      {
          keyword: "Mobile Phones",
@@ -100,7 +101,7 @@
          rating: 4.6,
          short_desc: "Innovative smartphone with unique features.",
          long_desc: "The Galaxy Mega combines a large display with innovative features, catering to those who want a cutting-edge mobile experience.",
-         image: "images/mobiles/9",
+         image: "images/Mobile Phones/9",
          "best_seller": true
      },
      {
@@ -112,7 +113,7 @@
          rating: 4.9,
          short_desc: "Ultimate smartphone experience with top-tier specs.",
          long_desc: "The Pixel Ultra offers unparalleled camera quality, advanced AI features, and a premium user experience, making it the perfect choice for tech enthusiasts.",
-         image: "images/mobiles/10"
+         image: "images/Mobile Phones/10"
      },
      {
          keyword: "Mobile Phones",
@@ -123,7 +124,7 @@
          rating: 4.3,
          short_desc: "Great features at a mid-range price.",
          long_desc: "The AeroPhone 3 combines performance and affordability, featuring a 6.4-inch display and fast charging capabilities.",
-         image: "images/mobiles/image11",
+         image: "images/Mobile Phones/11",
          new_arrival: true
      },
      {
@@ -135,7 +136,7 @@
          rating: 4.4,
          short_desc: "Versatile phone with flexible features.",
          long_desc: "The FlexiSmart 6 adapts to your lifestyle with its customizable interface and robust performance.",
-         image: "images/mobiles/image12"
+         image: "images/Mobile Phones/12"
      },
      {
          keyword: "Mobile Phones",
@@ -146,7 +147,7 @@
          rating: 4.6,
          short_desc: "Next-gen smartphone with 5G capabilities.",
          long_desc: "Experience lightning-fast connectivity with the FuturePhone 5G, designed for the tech-savvy user.",
-         image: "images/mobiles/image13",
+         image: "images/Mobile Phones/13",
          "best_seller": true
      },
      {
@@ -158,7 +159,7 @@
          rating: 3.7,
          short_desc: "Compact and user-friendly smartphone.",
          long_desc: "The MiniPhone 4 is perfect for those who prefer a smaller device without compromising on features.",
-         image: "images/mobiles/image14"
+         image: "images/Mobile Phones/14"
      },
      {
          keyword: "Mobile Phones",
@@ -169,9 +170,191 @@
          rating: 4.9,
          short_desc: "Premium smartphone with unrivaled performance.",
          long_desc: "The UltraPhone X features cutting-edge technology, a stunning display, and unmatched performance, catering to the elite user.",
-         image: "images/mobiles/image15",
+         image: "images/Mobile Phones/15",
          limited_stock: true
+     },
+     {
+         keyword: "Smart watches",
+         id: 16,
+         name: "Fire-Boltt Ninja Call Pro Plus",
+         price: 999,
+         seller: "Fire-Boltt",
+         rating: 3.8,
+         short_desc: "Smartwatch for the new era",
+         long_desc: "Fire-Boltt Ninja Call Pro Plus Smart Watch 1.83 inch with Bluetooth Calling, AI Voice Assistance, 100 Sports Modes IP67 Rating, 240 * 280 Pixel High Resolution",
+         image: "images/Smart Watches/1",
+         limited_stock: true
+     },
+     {
+         keyword: "Smart watches",
+         id: 17,
+         name: "NoiseFit Halo",
+         price: 1200,
+         seller: "Noise",
+         rating: 4.1,
+         short_desc: "Noise Health Suite ",
+         long_desc: `NoiseFit Halo 1.43" AMOLED Display, Bluetooth Calling Round Dial Smart Watch, Premium Metallic Build, Always on Display, Smart Gesture Control, 100 Sports Modes (Vintage Brown)  `,
+         image: "images/Smart Watches/2",
+         "best_seller": true
+     },
+     {
+         keyword: "Smart watches",
+         id: 18,
+         name: "boAt Xtend Pro",
+         price: 1399,
+         seller: "boAt",
+         rating: 4.3,
+         short_desc: "Alexa Built-in",
+         long_desc: `boAt Xtend Pro Smartwatch with Alexa Built-in, 1.78” AMOLED Display, Bluetooth Calling, Multiple Watch Faces, 700+ Active Modes, HR & SpO2 Monitoring (Active Black)`,
+         image: "images/Smart Watches/3",
+
+     },
+     {
+         keyword: "Smart watches",
+         id: 19,
+         name: "Fire-Boltt Phoenix",
+         price: 1499,
+         seller: "Fire-Boltt",
+         rating: 4.2,
+         short_desc: "AI Voice Assistant",
+         long_desc: `Fire-Boltt Phoenix Smart Watch with Bluetooth Calling, 1.3" TFT Round Display, SpO2, Heart Rate Monitoring, AI Voice Assistant, 120+ Sports Modes (Black)`,
+         image: "images/Smart Watches/4",
+
+     },
+     {
+         keyword: "Smart watches",
+         id: 20,
+         name: "Realme Watch 3",
+         price: 1599,
+         seller: "Realme",
+         rating: 4.0,
+         short_desc: "Clear Bluetooth Calling",
+         long_desc: `Realme Watch 3 Smartwatch with Bluetooth Calling, Large 1.8" Display, AI Noise Cancellation, SpO2, Heart Rate & Sleep Monitoring, Multiple Sports Modes (Grey)`,
+         image: "images/Smart Watches/5",
+         new_arrival: false
+     },
+     {
+         keyword: "Headsets",
+         id: 21,
+         name: "boAt Rockerz 255 Pro+",
+         price: 1099,
+         seller: "boAt",
+         rating: 4.2,
+         short_desc: "Wireless Neckband Earphones",
+         long_desc: `boAt Rockerz 255 Pro+ Bluetooth Wireless in Ear Earphones with ASAP Charge, Upto 40H Playback, IPX7 Water Resistance, Dual Pairing & Bluetooth v5.0 (Active Black)`,
+         image: "images/Headsets/1",
+         limited_stock: true
+     },
+     {
+         keyword: "Headsets",
+         id: 22,
+         name: "Sony WH-CH520",
+         price: 3699,
+         seller: "Sony",
+         rating: 4.5,
+         short_desc: "On-Ear Wireless Headphones",
+         long_desc: `Sony WH-CH520 On-Ear Wireless Headphones with 50H Battery Life, Multipoint Connectivity, DSEE, and Voice Assistant Support (Blue)`,
+         image: "images/Headsets/2",
+         best_seller: true
+     },
+     {
+         keyword: "Headsets",
+         id: 23,
+         name: "OnePlus Bullets Z2",
+         price: 1899,
+         seller: "OnePlus",
+         rating: 4.4,
+         short_desc: "Bass Edition Neckband",
+         long_desc: `OnePlus Bullets Wireless Z2 Bluetooth Neckband Earphones with 12.4mm Drivers, IP55 Water Resistance, Fast Charge Support & Long Battery Life (Magico Black)`,
+         image: "images/Headsets/3",
+         new_arrival: true
+     },
+     {
+         keyword: "Headsets",
+         id: 24,
+         name: "JBL Tune 760NC",
+         price: 4999,
+         seller: "JBL",
+         rating: 4.3,
+         short_desc: "Over-Ear Noise Cancelling Headphones",
+         long_desc: `JBL Tune 760NC Wireless Over-Ear Active Noise Cancelling Headphones with 50H Battery, Voice Assistant Support, and Dual Pairing (Black)`,
+         image: "images/Headsets/4",
+
+     },
+     {
+         keyword: "Headsets",
+         id: 25,
+         name: "Realme Buds Wireless 3",
+         price: 1699,
+         seller: "Realme",
+         rating: 4.1,
+         short_desc: "ANC Bluetooth Neckband",
+         long_desc: `Realme Buds Wireless 3 with 30dB ANC, 13.6mm Dynamic Bass Driver, 40H Playback, Dual Device Pairing & IP55 Water Resistance (Bass Yellow)`,
+         image: "images/Headsets/5",
+
+     },
+     {
+         keyword: "Power Banks",
+         id: 26,
+         name: "Mi Power Bank 3i 20000mAh",
+         price: 1799,
+         seller: "Mi",
+         rating: 4.4,
+         short_desc: "Triple Output with Fast Charging",
+         long_desc: `Mi Power Bank 3i 20000mAh with 18W Fast Charging, Triple Output and Dual Input Ports, Advanced 12-Layer Circuit Protection (Black)`,
+         image: "images/Power Banks/1",
+         limited_stock: true
+     },
+     {
+         keyword: "Power Banks",
+         id: 27,
+         name: "Realme 10000mAh Power Bank 2",
+         price: 1199,
+         seller: "Realme",
+         rating: 4.2,
+         short_desc: "18W Two-Way Fast Charging",
+         long_desc: `Realme 10000mAh Power Bank 2 with 18W Two-Way Fast Charging, USB Type-C & Type-A Ports, High-Density Battery (Yellow)`,
+         image: "images/Power Banks/2",
+         new_arrival: false
+     },
+     {
+         keyword: "Power Banks",
+         id: 28,
+         name: "Ambrane Stylo 20K",
+         price: 1499,
+         seller: "Ambrane",
+         rating: 4.3,
+         short_desc: "20000mAh with 20W PD",
+         long_desc: `Ambrane Stylo 20K 20000mAh Power Bank with 20W Fast Charging, Triple Output, Type-C Input/Output, Made in India (Blue)`,
+         image: "images/Power Banks/3",
+         best_seller: true
+     },
+     {
+         keyword: "Power Banks",
+         id: 29,
+         name: "URBN 10000mAh Nano",
+         price: 999,
+         seller: "URBN",
+         rating: 4.1,
+         short_desc: "Compact with 12W Fast Charge",
+         long_desc: `URBN 10000mAh Ultra Compact Power Bank with 12W Fast Charging, Dual USB Output, Type C & Micro USB Input (Midnight Black)`,
+         image: "images/Power Banks/4",
+
+     },
+     {
+         keyword: "Power Banks",
+         id: 30,
+         name: "Redmi 20000mAh Power Bank",
+         price: 1699,
+         seller: "Redmi",
+         rating: 4.2,
+         short_desc: "Dual Output 18W Charging",
+         long_desc: `Redmi 20000mAh Fast Charging Power Bank with Dual Output and Input Ports, 18W Fast Charging, Lithium-Polymer Battery (Black)`,
+         image: "images/Power Banks/5",
+
      }
+
+
  ]
 
  module.exports = DummyProducts
